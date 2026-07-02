@@ -4,7 +4,8 @@
   "description": "",
   "main": "search-aws-cloudsearch.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-fast": "./node_modules/jasmine/bin/jasmine.js --config=test/support/jasmine.json",
+    "test": "./scripts/start-aws-cloudsearch-sim.sh -dD && npm run test-fast; ./scripts/stop-aws-cloudsearch-sim.sh",
     "start-local": "./scripts/start-aws-cloudsearch-sim.sh",
     "stop-local": "./scripts/stop-aws-cloudsearch-sim.sh"
   },
@@ -15,7 +16,9 @@
     "aws-sdk": "2.969.0"
   },
   "devDependencies": {
+    "jasmine": "3.8.0",
     "seneca": "3.23.3",
-    "seneca-promisify": "2.0.0"
+    "seneca-promisify": "2.0.0",
+    "seneca-search-test": "file:../seneca-search-test"
   }
 }
