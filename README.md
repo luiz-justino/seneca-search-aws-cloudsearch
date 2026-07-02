@@ -3,7 +3,6 @@
 
 # seneca-search-aws-cloudsearch
 
-[![npm version](https://img.shields.io/npm/v/seneca-search-aws-cloudsearch.svg)](https://npmjs.com/package/seneca-search-aws-cloudsearch)
 [![build](https://github.com/senecajs/seneca-search-aws-cloudsearch/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-search-aws-cloudsearch/actions/workflows/build.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-search-aws-cloudsearch/badge.svg)](https://snyk.io/test/github/senecajs/seneca-search-aws-cloudsearch)
 
